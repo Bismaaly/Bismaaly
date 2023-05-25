@@ -62,3 +62,4 @@ There are several famous algorithms with well-known time complexities. Here are 
 8. Knapsack Problem (Dynamic Programming): The time complexity of the knapsack problem solved using dynamic programming is O(nW), where n is the number of items and W is the maximum weight capacity of the knapsack. It utilizes a tabular approach to calculate the maximum value that can be obtained by including or excluding each item.
 
 These are just a few examples of famous algorithms and their time complexities. Understanding the time complexity of algorithms helps in analyzing their efficiency and selecting the most appropriate algorithm for a given problem based on the input size and performance requirements.
+
