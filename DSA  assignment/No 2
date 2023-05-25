@@ -1,0 +1,64 @@
+𝙌1 : what is time complexity?
+
+Time complexity is a term used in computer science and algorithm analysis to describe the amount of time required by an algorithm to run as a function of the size of the input. It measures how the running time of an algorithm increases with the input size.
+
+Time complexity is usually expressed using big O notation, which provides an upper bound on the growth rate of the algorithm. The notation is written as "O(f(n))," where f(n) represents the function describing the growth rate of the algorithm and n represents the input size. The function f(n) may be a constant, a linear function, a quadratic function, a logarithmic function, or other mathematical functions.
+
+The time complexity helps in comparing different algorithms and understanding their efficiency. It allows us to analyze how an algorithm scales with larger inputs and make predictions about its performance. Algorithms with better time complexity generally run faster and are considered more efficient.
+
+For example, an algorithm with a time complexity of O(n) means that the running time of the algorithm grows linearly with the input size. If the input size doubles, the running time also doubles. On the other hand, an algorithm with a time complexity of O(n^2) means that the running time grows quadratically with the input size. In this case, if the input size doubles, the running time increases fourfold.
+
+It's important to note that time complexity focuses on the growth rate and not the actual running time. It provides a high-level analysis of algorithm efficiency and helps in selecting the most appropriate algorithm for a given problem based on its time complexity.
+𝙌2: What is space complexity? 
+
+Space complexity, similar to time complexity, is a term used in computer science and algorithm analysis to measure the amount of memory or space required by an algorithm to solve a problem as a function of the input size. It determines how much additional memory an algorithm needs to allocate and use to execute.
+
+Space complexity is typically expressed using big O notation, similar to time complexity. The notation "O(f(n))" is used to represent the upper bound on the space used by the algorithm, where f(n) represents the function describing the growth rate of the space usage and n represents the input size.
+
+The space complexity considers the amount of memory required for variables, data structures, and auxiliary space used during the execution of an algorithm. It does not include the space occupied by the input itself.
+
+For example, if an algorithm requires a fixed amount of additional memory to perform its operations, regardless of the input size, it can be described as having a space complexity of O(1) or constant space complexity. This means that the space usage remains constant irrespective of the input size.
+
+On the other hand, if the amount of memory required by the algorithm grows with the input size, the space complexity may be described as O(n) or linear space complexity. This indicates that the space usage increases proportionally with the input size.
+
+Similarly to time complexity, space complexity helps in comparing different algorithms and understanding their efficiency in terms of memory usage. It allows us to analyze how the memory requirements of an algorithm scale with larger inputs and make informed decisions about choosing the most appropriate algorithm based on its space complexity.
+𝙌3: Application and uses of tree data structure
+Tree data structures have various applications and are widely used in computer science and programming. Here are some common applications and uses of tree data structures:
+
+1. File Systems: File systems on computers often use tree structures to organize directories and files. The hierarchical structure of directories and subdirectories can be represented effectively using trees, allowing for efficient navigation and management of files.
+
+2. Binary Search Trees (BSTs): Binary search trees are commonly used to implement efficient searching and sorting algorithms. The structure of a BST allows for quick insertion, deletion, and searching of elements, making it useful in applications like database systems, symbol tables, and dynamic sets.
+
+3. Heap Data Structure: Heaps, specifically binary heaps, are tree-based data structures used for efficient priority queue operations. Heaps are used in various applications like sorting algorithms (e.g., heapsort), job scheduling, graph algorithms (e.g., Dijkstra's algorithm), and implementing efficient data structures like the heap-based priority queue.
+
+4. Syntax Trees: In programming languages and compilers, syntax trees (also known as abstract syntax trees) are used to represent the structure of a program or expression. Syntax trees help in analyzing, parsing, and interpreting or compiling code by providing a hierarchical representation of the code's syntax and structure.
+
+5. Decision Trees: Decision trees are used in machine learning and data mining for classification and regression tasks. They provide a graphical representation of decisions and their possible consequences, helping to make predictions or determine the best course of action based on input features.
+
+6. Trie Data Structure: Tries (prefix trees) are commonly used for efficient string searching and retrieval operations. They are utilized in applications like auto-complete features, spell-checking, IP routing, and storing dictionaries.
+
+7. AVL Trees and Red-Black Trees: Balanced binary search trees like AVL trees and red-black trees are used to maintain sorted data efficiently. These trees ensure that the height of the tree remains balanced, resulting in fast insertion, deletion, and searching operations. They are employed in databases, self-balancing binary search tree implementations, and various data structures.
+
+8. Huffman Coding: Huffman coding, a compression algorithm, utilizes binary trees to assign variable-length codes to characters based on their frequency of occurrence. Huffman trees are widely used in file compression utilities and algorithms.
+
+These are just a few examples of the many applications and uses of tree data structures. The flexibility and efficiency of trees make them valuable in diverse areas of computer science and programming.
+𝙌4 Famous algorithm with their time complexity
+There are several famous algorithms with well-known time complexities. Here are some examples:
+
+1. Linear Search: The time complexity of linear search is O(n), where n is the size of the input. In the worst case, the algorithm may need to examine every element in the input list or array to find the desired element.
+
+2. Binary Search: The time complexity of binary search is O(log n), where n is the size of the input. Binary search works on sorted data by repeatedly dividing the search space in half, significantly reducing the number of elements to be examined.
+
+3. Bubble Sort: The time complexity of bubble sort is O(n^2), where n is the size of the input. Bubble sort repeatedly compares adjacent elements and swaps them if they are in the wrong order, gradually moving larger elements towards the end of the list.
+
+4. Insertion Sort: The time complexity of insertion sort is O(n^2), where n is the size of the input. Insertion sort builds the final sorted array one element at a time by repeatedly inserting each element into its correct position among the already sorted elements.
+
+5. Merge Sort: The time complexity of merge sort is O(n log n), where n is the size of the input. Merge sort divides the input array into smaller halves, sorts them recursively, and then merges the sorted halves to produce a sorted output.
+
+6. Quick Sort: The average-case time complexity of quicksort is O(n log n), where n is the size of the input. Quicksort is a divide-and-conquer algorithm that partitions the input array around a pivot, and recursively sorts the sub-arrays on each side of the pivot.
+
+7. Dijkstra's Algorithm: The time complexity of Dijkstra's algorithm for finding the shortest path in a graph is O((V + E) log V), where V is the number of vertices and E is the number of edges in the graph. It uses a priority queue (min-heap) to efficiently select the next vertex with the shortest path.
+
+8. Knapsack Problem (Dynamic Programming): The time complexity of the knapsack problem solved using dynamic programming is O(nW), where n is the number of items and W is the maximum weight capacity of the knapsack. It utilizes a tabular approach to calculate the maximum value that can be obtained by including or excluding each item.
+
+These are just a few examples of famous algorithms and their time complexities. Understanding the time complexity of algorithms helps in analyzing their efficiency and selecting the most appropriate algorithm for a given problem based on the input size and performance requirements.
